@@ -17,7 +17,7 @@ $matriz = [
 
 // Exibindo nome dos pilotos
 echo "\n";
-echo "Melhores pilotosa da F1: \n";
+echo "Melhores pilotos da F1: \n";
 foreach ($matriz as $linha) {
     foreach ($linha as $piloto) {
         echo $piloto . " | ";
