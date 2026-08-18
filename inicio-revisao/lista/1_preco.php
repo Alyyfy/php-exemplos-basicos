@@ -7,7 +7,15 @@ $quantidade = 16;
 // Somando
 $total = $preco * $quantidade;
 
-if ($total >= 200) {}
+if ($total >= 200) {
+    $desconto = $total * 0.10;
+    $valorFinal = $total - $desconto;
+} else {
+    $valorFinal = $total;
+}
 
 //Exibindo resultado
-echo "A soma de n1 + n2 é igual a: $soma";
+echo "Valor total é: R$ $total \n" ;
+echo "Valor final da compra é: R$ $valorFinal"
+
+?>
