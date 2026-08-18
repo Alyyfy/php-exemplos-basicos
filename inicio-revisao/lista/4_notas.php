@@ -20,7 +20,7 @@ foreach ($notas as $nota) {
 
 $media = $soma / $nota ;
 
-echo "Média da turma: " . $media . "\n";
+echo "Média da turma: " . number_format($media, 1, ',', '.') . "\n";
 echo "Maior nota: " . $maior . "\n";
 echo "Menor nota: " . $menor;
 
